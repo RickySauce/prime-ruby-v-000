@@ -2,7 +2,6 @@ require 'pry'
 
 def prime?(integer)
   range =*(1..100)
-  binding.pry
   new_range = Array.new
   range.select do |numbers|
       new_range << numbers if integer % numbers == 0
